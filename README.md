@@ -27,3 +27,4 @@
 git add --all  
 git commit -m "Initial commit"  
 git push -u origin master
+* http://kaputchyno.github.io/ pour voir la page
