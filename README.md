@@ -1,10 +1,9 @@
-# KaputChyno.github.io
 # Readme.md
 ### Installation de Jekyll
 
 ---
 
-Installer Jekyll :
+**Installer Jekyll :**
 
 * Ouvrir le terminal pour installer Jekyll
 * Ecrire "sudo apt-get install Jekyll" pour installer Jekyll
@@ -15,29 +14,16 @@ Installer Jekyll :
 * "jekyll serve" pour lancer le serveur
 * Dans le navigateur, "localhost:4000" pour se connecter à monSite
 
-Installer Git :  
+**Installer Git :  **
 
 * Pour installer Git : "sudo apt-get install Git"
 
-Créer
+**Github Pages : **
 
-**WriteMe.md** also supports GitHub-style syntax highlighting for numerous languages, like so:
-
-```html
-<h1>Enjoy</h1>
-```
-
-```css
-h1:after {
-  content: 'using';
-}
-```
-
-```js
-console.log('WriteMe.md');
-```
-
----
-
-To learn the basics of using Markdown, **[read this](http://daringfireball.net/projects/markdown/basics)**.
-
+* Créer un "repository" sur github, au nom de : "KaputChyno.github.io"
+* Cloner avec "git clone https://github.com/KaputChyno/KaputChyno.github.io"
+* Se déplacer dans le bon dossier : "cd username.github.io" et écrire Hello World sur la page  : "echo "Hello World" > index.html"
+* Ajouter les modifications et les envoyer :  
+git add --all  
+git commit -m "Initial commit"  
+git push -u origin master
