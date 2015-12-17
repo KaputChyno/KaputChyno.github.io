@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Variable</title>
+</head>
+
+<body>
+    <footer>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                
+            </li>
+            {% endfor %}
+</ul>
+    </footer>
+</body>
+</html>
